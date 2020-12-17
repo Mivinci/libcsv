@@ -2,8 +2,12 @@ libcsv
 ======
 
 A simple implementation for csv reader and writer in C.
+This library has human readable APIs, but does not provide 
+any error handling, so use it carefully.
 
-example:
+
+Example:
+
     #include <stdio.h>
     #include <csv.h>
 
