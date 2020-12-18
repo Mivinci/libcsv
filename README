@@ -37,4 +37,6 @@ Here's an example to read a csv file:
         return 0;
     }
 
-You can have a look at the complete [example](https://github.com/Mivinci/libcsv/tree/main/_example).
+You can have a look at the complete example:
+    
+    https://github.com/Mivinci/libcsv/tree/main/_example
