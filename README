@@ -2,11 +2,21 @@ libcsv
 ======
 
 A simple implementation for csv reader and writer in C.
-This library has human readable APIs, but does not provide 
+This library has human readable APIs but does not provide 
 any error handling, so use it carefully.
 
+Install:
 
-Example:
+    git clone git@github.com:Mivinci/libcsv.git
+    cd libcsv
+    make
+    make install
+
+Then you can compile your code with my library:
+
+    gcc main.c -lcsv
+
+Here's an example to read a csv file:
 
     #include <stdio.h>
     #include <csv.h>
@@ -26,3 +36,5 @@ Example:
         csv_close(&file);
         return 0;
     }
+
+You can have a look at the complete [example](https://github.com/Mivinci/libcsv/tree/main/_example).

@@ -23,6 +23,7 @@ int csv_close(struct csv *csv) {
 
 void csv_reset(struct csv *csv) {
     csv->cur = CSV_START;
+    csv->bytes_read = 0;
     csv->fields[0] = &csv->buf[0];
 }
 
